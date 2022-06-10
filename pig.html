@@ -13,21 +13,25 @@
     <div class="container">
         <div class="player1">
             <h1 class="player">Player 1</h1>
-            <div class="current"></div>
             <div class="total">
                 <h1>Total Score: <p1 id="total1">0</p1></h1>
             </div>
-            <button onclick="onclicked()"class="one" id="rbtn1">Roll</button>
-            <button class="one" id="hbtn1">Hold</button>
+            
+                <h1 class="score">Current Score: <p1 id="current1"></p1></h1>
+            
+            <button class="one" id="rbtn1">Roll</button>
+            <button onclick="hidden()"class="one" id="hbtn1">Hold</button>
         </div>
         <div class="player2">
             <h1 class="player">Player 2</h1>
-            <div class="current"></div>
             <div class="total">
                 <h1>Total Score: <p1 id="total2">0</p1></h1>
             </div>
-            <button onclick="onclicked()" class="two" id="rbtn2">Roll</button>
-            <button class="two" id="hbtn2">Hold</button>
+            
+                <h1 class="score">Current Score: <p1 id="current2"></p1></h1>
+        
+            <button class="two" id="rbtn2">Roll</button>
+            <button onclick="hidden()"class="two" id="hbtn2">Hold</button>
         </div>
     </div>
 </body>
