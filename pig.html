@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Pig Game</title>
+    <link rel="stylesheet" href="pig.css">
+    <link rel="shortcut icon" href="pig.jpg" type="image/x-icon">
+</head>
+<body>
+    <div id="dice"></div>
+    <div class="container">
+        <div class="player1">
+            <h1 class="player">Player 1</h1>
+            <div class="current"></div>
+            <div class="total">
+                <h1>Total Score: <p1 id="total1">0</p1></h1>
+            </div>
+            <button onclick="onclicked()"class="one" id="rbtn1">Roll</button>
+            <button class="one" id="hbtn1">Hold</button>
+        </div>
+        <div class="player2">
+            <h1 class="player">Player 2</h1>
+            <div class="current"></div>
+            <div class="total">
+                <h1>Total Score: <p1 id="total2">0</p1></h1>
+            </div>
+            <button onclick="onclicked()" class="two" id="rbtn2">Roll</button>
+            <button class="two" id="hbtn2">Hold</button>
+        </div>
+    </div>
+</body>
+<script src="pig.js"></script>
+</html>

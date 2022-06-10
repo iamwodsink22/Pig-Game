@@ -1,0 +1,65 @@
+html{
+    background-color: crimson;
+}
+#dice{
+    background-image: url('six.jpg');
+    margin-top: 10vh;
+    margin-left: 47vw;
+    width: 100px;;
+    height: 100px;
+}
+.container{
+    display: inline-flex;
+    width:60vw;
+    height:70vh;
+    margin-bottom:25vh;
+    margin-left: 20vw;
+    background-color: black;
+
+}
+.player1{
+    width:30vw;
+    height: 70vh;
+    background-color: cadetblue;
+}
+.player2{
+    width:30vw;
+    height: 70vh;
+    background-color: aqua;
+}
+.total{
+    width:15vw;
+    height: 8vh;
+    background-color: lightcoral;
+    margin-top: 3vh;
+    margin-left: 7.5vw;
+}
+.player{
+    text-align: center;
+}
+button{
+    cursor: pointer;
+    border-radius: 2vw;
+    width: 5vw;
+    height:5vh;
+}
+.one{
+    
+    background-color: darkolivegreen;
+    margin-left:23vw;
+    margin-bottom: 1vh;
+    position: relative;
+    top: 32vh;
+    margin-top: 2vh;
+    
+}
+.two{
+    
+    background-color: blueviolet;
+    margin-right:14vw;
+    margin-left: 2vw;
+    margin-bottom: 1vh;
+    position: relative;
+    top: 32vh;
+    margin-top: 2vh;
+}
