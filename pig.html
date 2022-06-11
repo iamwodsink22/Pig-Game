@@ -9,9 +9,12 @@
     <link rel="shortcut icon" href="pig.jpg" type="image/x-icon">
 </head>
 <body>
+    <div class="winner">
+        <h1>WINNER: <p1 id="winner"></p1></h1>
+    </div>
     <div id="dice"></div>
     <div class="container">
-        <div class="player1">
+        <div class="player1" id="p1">
             <h1 class="player">Player 1</h1>
             <div class="total">
                 <h1>Total Score: <p1 id="total1">0</p1></h1>
@@ -20,9 +23,9 @@
                 <h1 class="score">Current Score: <p1 id="current1"></p1></h1>
             
             <button class="one" id="rbtn1">Roll</button>
-            <button onclick="hidden()"class="one" id="hbtn1">Hold</button>
+            <button class="one" id="hbtn1">Hold</button>
         </div>
-        <div class="player2">
+        <div class="player2" id="p2">
             <h1 class="player">Player 2</h1>
             <div class="total">
                 <h1>Total Score: <p1 id="total2">0</p1></h1>
@@ -31,7 +34,7 @@
                 <h1 class="score">Current Score: <p1 id="current2"></p1></h1>
         
             <button class="two" id="rbtn2">Roll</button>
-            <button onclick="hidden()"class="two" id="hbtn2">Hold</button>
+            <button class="two" id="hbtn2">Hold</button>
         </div>
     </div>
 </body>
