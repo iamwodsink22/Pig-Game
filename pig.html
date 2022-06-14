@@ -5,14 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Official Pig Game</title>
-    <link rel="stylesheet" href="pig.css">
-    <link rel="shortcut icon" href="pig.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="Source/pig.css">
+    <link rel="shortcut icon" href="Source/Resources/pig.jpg" type="image/x-icon">
 </head>
 <body>
+    <button onclick="popup()" id="instu">How to Play?</button>
     <div class="winner">
         <h1>WINNER: <p1 id="winner"></p1></h1>
     </div>
     <div id="dice"></div>
+    <div class="instructions" id="instruct">
+        <button onclick="defult()" id="remove">X</button>
+        <p1 class="cla">There are two players. In Each turn, they roll the dice and current score gets increased as per the dice.To save the current Score into Total Score the player must 'hold'.If the player doesnt hold and 'one' gets rolled all his current score would get cancelled out. The first Player to get 50 points wins. Enjoy!</p1>
+    </div>
     <div class="container">
         <div class="player1" id="p1">
             <h1 class="player">Player 1</h1>
@@ -38,5 +43,5 @@
         </div>
     </div>
 </body>
-<script src="pig.js"></script>
+<script src="Source/pig.js"></script>
 </html>
